@@ -20,5 +20,8 @@ swjb.kro.kr
 3등 - 문화상품권 2만원  
 2문제 이상 푼 인원의 25%에게 문화상품권 5천원 지급 (입상자 제외)
 
+## 대회 플랫폼
+Lavida Online Judge (https://lavida.us/)
+
 ## 문의 연락처
 카카오톡 ray20111
