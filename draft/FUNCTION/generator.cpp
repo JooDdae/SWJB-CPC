@@ -13,9 +13,9 @@ int main(int argc, char* argv[]){
 	printf("%d\n",N);
 	for(int i=1;i<=N;i++){
         shuffle(in+1,in+1+N);
-        int cnt = rnd.next(0, N-2);
+        int cnt = rnd.next(0, N-1);
         for(int j=1;j<=cnt;j++){
-            if(in[j] == 1 || in[j] == i){
+            if(in[j] == 1){
                 cnt++;
                 continue;
             }
