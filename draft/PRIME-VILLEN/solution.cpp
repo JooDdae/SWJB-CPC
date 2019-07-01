@@ -19,7 +19,7 @@ int main(){
         cnt[i] = ++c;
         for(int j=i+i;j<=10000;j+=i) chk[j] = 1;
     }
-
+    printf("%d%d",v[0],v[25]);
     scanf("%s",s+1);
     n = strlen(s+1);
     for(int i=1;i<=n;i++){

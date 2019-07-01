@@ -6,6 +6,7 @@ void wrong(){ exit(1); }
 void my_assert(int k){ if (!k) wrong(); }
 vector<int> v;
 int chk[10101];
+char tmp[505050];
 int main(int argc, char *args[])
 {
         v.push_back(1);
@@ -18,10 +19,10 @@ int main(int argc, char *args[])
         FILE *f_in = fopen(args[1],"r");
         FILE *f_user = fopen(args[3],"r");
 
-        char tmp[505050];
         string s,in;
         my_assert(1 == fscanf(f_in, "%s", tmp));
         s = tmp;
+
         int n = s.size(),m;
         int dp[n+1];
         dp[0] = 0;
