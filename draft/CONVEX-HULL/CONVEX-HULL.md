@@ -1,4 +1,4 @@
-# ConvexHull
+# Convex-Hull
 
 ## Description
 
@@ -15,3 +15,12 @@
 ## Tip
 
 Convex Hull로 이 문제를 풀면 특별한 보상이 있다고한다.
+
+## 예제 입력 1
+4
+0 0
+0 1
+1 0
+1 1
+## 예제 출력 1
+2
