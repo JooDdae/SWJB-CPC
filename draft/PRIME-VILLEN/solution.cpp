@@ -25,7 +25,7 @@ int main(){
     for(int i=1;i<=n;i++){
         dp[i] = -1e9;
         for(int j=i;j>=max(1,i-3);j--){
-            if(dp[j-1]+1 <= dp[i]) continue;
+            if(dp[j-1]+1 <= dp[i] || s[j] == '0') continue;
             int num = 0;
             for(int k=j;k<=i;k++) num = num * 10 + s[k] - '0';
             if(!chk[num]){
