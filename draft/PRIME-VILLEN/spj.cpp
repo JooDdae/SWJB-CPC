@@ -18,9 +18,10 @@ int main(int argc, char *args[])
         FILE *f_in = fopen(args[1],"r");
         FILE *f_user = fopen(args[3],"r");
 
+        char tmp[505050];
         string s,in;
-        my_assert(1 == fscanf(f_in, "%s", s));
-
+        my_assert(1 == fscanf(f_in, "%s", tmp));
+        s = tmp;
         int n = s.size(),m;
         int dp[n+1];
         dp[0] = 0;
