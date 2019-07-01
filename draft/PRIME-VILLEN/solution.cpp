@@ -34,5 +34,6 @@ int main(){
             }
         }
     }
+    printf("%d\n",dp[n]);
     out(n);
 }
