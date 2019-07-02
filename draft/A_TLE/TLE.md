@@ -1,4 +1,4 @@
-# TLE
+# 시간초과는 너무나 싫어!
 
 ## Description
 

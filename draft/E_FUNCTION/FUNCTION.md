@@ -1,4 +1,4 @@
-# Function
+# 함수는 너무나 편리해!
 
 ## Description
 

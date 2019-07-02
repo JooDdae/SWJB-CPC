@@ -1,4 +1,4 @@
-# Convex-Hull
+# 볼록 껍질 알고리즘은 너무나 신기해!
 
 ## Description
 

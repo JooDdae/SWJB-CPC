@@ -1,4 +1,4 @@
-# Novel
+# 소설은 너무나 재밌어!
 
 ## Description
 
