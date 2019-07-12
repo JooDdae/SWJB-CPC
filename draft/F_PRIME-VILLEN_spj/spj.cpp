@@ -17,7 +17,7 @@ int main(int argc, char *args[])
         }
 
         FILE *f_in = fopen(args[1],"r");
-        FILE *f_user = fopen(args[3],"r");
+        FILE *f_user = fopen(args[2],"r");
 
         string s,in;
         my_assert(1 == fscanf(f_in, "%s", tmp));
