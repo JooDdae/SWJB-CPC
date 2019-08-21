@@ -16,9 +16,9 @@
 swjb.kro.kr
 
 ## 시상 내역
-1등(1명) - USB 128GB
-2등(2명) - USB 64GB
-3등(3명) - USB 32GB
+1등(1명) - USB 128GB  
+2등(2명) - USB 64GB  
+3등(3명) - USB 32GB  
 
 ## 대회 플랫폼
 Lavida Online Judge (https://lavida.us/)
